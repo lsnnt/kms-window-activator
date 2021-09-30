@@ -1,0 +1,1 @@
+# kms-window-activator

@@ -1,5 +1,20 @@
 import os
-os.system("slmgr /skms kms8.msguides.com")
-os.system("slmgr /ato")
-os.system("echo By Nityanand Thakur.")
-
+os.system("echo It only works for windows if you are using windows then hit y.")
+x = str(input("type 'y' to proceed and and other letter for not proceeding. : "))
+if(x == "y"):
+	print("\n")
+	os.system("echo Activating windows in ...............")
+	os.system("echo If any popup occurs click on OK.")
+	os.system("echo 3")
+	os.system("slmgr /skms kms8.msguides.com")
+	os.system("echo 2")
+	os.system("slmgr /ato")
+	os.system("echo 1")
+	os.system("echo Windows activated succesfully.")
+	os.system("echo By Nityanand Thakur.")
+	os.system("echo Licensed under 'MPL-2.0 License'.")
+	print("if not activated use this script with administrative preiveleges")
+else:
+	print("\nBetter look update for this kms-server-software")
+	os.system("echo By Nityanand Thakur.")
+	os.system("echo Licensed under 'MPL-2.0 License'.")

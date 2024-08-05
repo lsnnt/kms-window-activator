@@ -11,10 +11,10 @@ if(x == "y"):
 	os.system("slmgr /ato")
 	os.system("echo 1")
 	os.system("echo Windows activated succesfully.")
-	os.system("echo By Nityanand Thakur.")
+	os.system("echo By @lsnnt.")
 	os.system("echo Licensed under 'MPL-2.0 License'.")
 	print("if not activated use this script with administrative preiveleges")
 else:
 	print("\nBetter look update for this kms-server-software")
-	os.system("echo By Nityanand Thakur.")
+	os.system("echo By @lsnnt.")
 	os.system("echo Licensed under 'MPL-2.0 License'.")
